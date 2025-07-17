@@ -3,4 +3,28 @@
 
 :root {
   font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #475569; /* Tailwind slate-600 for softer body text */
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #0f172a; /* Tailwind slate-900 for headings */
+  font-size: 1.5em;
+}
+
+p, span, li, a, div {
+  font-weight: 400;
+  color: #475569;
+  letter-spacing: 0.02em;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+a[href*="ko-fi.com"]:hover {
+  color: #29abe0 !important;
 }
